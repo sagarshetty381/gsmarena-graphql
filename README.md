@@ -11,9 +11,10 @@ npm i
 npm run start
 ```
 
-To test the API queries, click on https://localhost:4000/graphql
+To test the API queries, click on http://localhost:4000/graphql
 
-Guide for the API
+
+## Guide for the API
 ### To get all the brand names
 ```graphql
 getAllBrands {
@@ -29,7 +30,7 @@ getAllBrands {
     slug
   }
 ```
-brandSlug :- Slug received from the repective brands from getAllBrands call
+brandSlug :- Slug received from the respective brands from getAllBrands call
 
 ### To get the mobile phones details
 ```graphql
